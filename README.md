@@ -15,39 +15,32 @@ This is a solution template for creating a .NET Core API following the principle
 * [Swagger]("https://swagger.io/")
 * [Microsoft Core Identity]("https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-5.0&tabs=visual-studio")
 * [PostgreSQL]("https://www.postgresql.org/")
+* [DbUp]("https://dbup.readthedocs.io/en/latest/")
 
 ## Getting Started
 
 1. Install the latest [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
 1. Clone the project
+1. Run `Infrastructure.DbUp` console project
+1. Run `WebAPI` project
 
 ### Database Configuration
 
-The template is configured to use a PostgreSQL database.<br/>
+The API uses `PostgreSQL` database.<br/>
+`DbUp` is used for database schema change management.
 
 Prerequisites:
 1. Install `PostreSQL` database locally
 1. Install [pgAdmin4]("https://www.pgadmin.org/download/") to manage PostreSQL databases
-1. Install [dotnet ef]("https://docs.microsoft.com/en-us/ef/core/cli/dotnet") tools -> `dotnet tool install --global dotnet-ef`
 
-Update **WebAPI/appsettings.json** as follows:
+Update **Infrastructure.DbUp/appsettings.json** as follows:
 
 * Verify that the **DefaultConnection** connection string within **appsettings.json** points to a valid PostgreSQL Server instance. 
 * When you run the application the database will be automatically created (if necessary) and the latest migrations will be applied.
 
-### Database Migrations
+Update **WebAPI/appsettings.json** as follows:
 
-To use `dotnet-ef` for your migrations please add the following flags to your command (values assume you are executing from repository root)
-
-* `--project src/Infrastructure.Identity` (optional if in this folder)
-* `--project src/Infrastructure.Persistence` (optional if in this folder)
-* `--startup-project src/WebUI`
-* `--output-dir Infrastructure.Identity/Migrations` (for Identity Context)
-* `--output-dir Infrastructure.Persistence/Migrations` (for ApplicationDb Context)
-
-For example, to add a new migration from the root folder:
-
- `dotnet ef migrations add "SampleMigration" --project src\Infrastructure.Persistence --startup-project src\WebUI --output-dir Infrastructure.Persistence\Migrations`
+* Verify that the **DefaultConnection** connection string within **appsettings.json** points to the same PostgreSQL Server instance as in **Infrastructure.DbUp/appsettings.json**. 
 
 ## Overview
 
