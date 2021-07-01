@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CarDataPlatformIngestor.Application.Exceptions
+namespace CleanArchitectureTemplate.Application.Exceptions
 {
     public class ValidationException : Exception
     {

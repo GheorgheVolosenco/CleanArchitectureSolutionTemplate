@@ -1,7 +1,7 @@
-﻿using CarDataPlatformIngestor.Application.DTOs.Email.Requests;
+﻿using CleanArchitectureTemplate.Application.DTOs.Email.Requests;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Application.Interfaces.Services
+namespace CleanArchitectureTemplate.Application.Interfaces.Services
 {
     public interface IEmailService
     {

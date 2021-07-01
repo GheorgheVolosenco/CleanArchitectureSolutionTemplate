@@ -1,10 +1,10 @@
-﻿using CarDataPlatformIngestor.Application.DTOs.Account.Requests;
-using CarDataPlatformIngestor.Application.Interfaces.Services;
+﻿using CleanArchitectureTemplate.Application.DTOs.Account.Requests;
+using CleanArchitectureTemplate.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.WebApi.Controllers
+namespace CleanArchitectureTemplate.WebApi.Controllers
 {
     [Route("api/account")]
     [ApiController]

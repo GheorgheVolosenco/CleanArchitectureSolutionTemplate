@@ -1,4 +1,4 @@
-using CarDataPlatformIngestor.Infrastructure.Identity.Models;
+using CleanArchitectureTemplate.Infrastructure.Identity.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -9,7 +9,7 @@ using Serilog;
 using System;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.WebApi
+namespace CleanArchitectureTemplate.WebApi
 {
     public class Program
     {

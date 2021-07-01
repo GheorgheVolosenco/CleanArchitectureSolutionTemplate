@@ -1,12 +1,12 @@
-﻿using CarDataPlatformIngestor.Application.Interfaces.Repositories;
-using CarDataPlatformIngestor.Infrastructure.Persistence.Contexts;
-using CarDataPlatformIngestor.Infrastructure.Persistence.Repositories;
-using CarDataPlatformIngestor.Infrastructure.Persistence.Repository;
+﻿using CleanArchitectureTemplate.Application.Interfaces.Repositories;
+using CleanArchitectureTemplate.Infrastructure.Persistence.Contexts;
+using CleanArchitectureTemplate.Infrastructure.Persistence.Repositories;
+using CleanArchitectureTemplate.Infrastructure.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CarDataPlatformIngestor.Infrastructure.Persistence
+namespace CleanArchitectureTemplate.Infrastructure.Persistence
 {
     public static class ServiceRegistration
     {

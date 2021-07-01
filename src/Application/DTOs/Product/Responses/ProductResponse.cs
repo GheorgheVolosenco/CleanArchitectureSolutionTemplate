@@ -1,4 +1,4 @@
-﻿namespace CarDataPlatformIngestor.Application.DTOs.Product.Responses
+﻿namespace CleanArchitectureTemplate.Application.DTOs.Product.Responses
 {
     public class ProductResponse
     {

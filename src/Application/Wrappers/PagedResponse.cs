@@ -1,4 +1,4 @@
-﻿namespace CarDataPlatformIngestor.Application.Wrappers
+﻿namespace CleanArchitectureTemplate.Application.Wrappers
 {
     public class PagedResponse<T> : Response<T>
     {

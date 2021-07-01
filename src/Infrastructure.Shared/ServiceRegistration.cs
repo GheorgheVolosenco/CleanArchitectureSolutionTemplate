@@ -1,11 +1,11 @@
 ﻿using Application.Services.Products;
-using CarDataPlatformIngestor.Application.Interfaces.Services;
-using CarDataPlatformIngestor.Domain.Settings;
-using CarDataPlatformIngestor.Infrastructure.Shared.Services;
+using CleanArchitectureTemplate.Application.Interfaces.Services;
+using CleanArchitectureTemplate.Domain.Settings;
+using CleanArchitectureTemplate.Infrastructure.Shared.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CarDataPlatformIngestor.Infrastructure.Shared
+namespace CleanArchitectureTemplate.Infrastructure.Shared
 {
     public static class ServiceRegistration
     {

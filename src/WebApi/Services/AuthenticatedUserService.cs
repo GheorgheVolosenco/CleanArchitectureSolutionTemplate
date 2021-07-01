@@ -1,8 +1,8 @@
-﻿using CarDataPlatformIngestor.Application.Interfaces.Services;
+﻿using CleanArchitectureTemplate.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
 
-namespace CarDataPlatformIngestor.WebApi.Services
+namespace CleanArchitectureTemplate.WebApi.Services
 {
     public class AuthenticatedUserService : IAuthenticatedUserService
     {

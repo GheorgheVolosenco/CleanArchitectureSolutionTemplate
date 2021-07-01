@@ -1,6 +1,6 @@
-﻿using CarDataPlatformIngestor.Application.Filters;
+﻿using CleanArchitectureTemplate.Application.Filters;
 
-namespace CarDataPlatformIngestor.Application.DTOs.Product.Requests
+namespace CleanArchitectureTemplate.Application.DTOs.Product.Requests
 {
     public class GetAllProductsParameter : RequestParameter
     {

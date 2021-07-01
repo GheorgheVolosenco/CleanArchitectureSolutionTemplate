@@ -1,10 +1,10 @@
-﻿using CarDataPlatformIngestor.Application.DTOs.Product.Requests;
-using CarDataPlatformIngestor.Application.Interfaces.Repositories;
+﻿using CleanArchitectureTemplate.Application.DTOs.Product.Requests;
+using CleanArchitectureTemplate.Application.Interfaces.Repositories;
 using FluentValidation;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Application.DTOs.Product.Validators
+namespace CleanArchitectureTemplate.Application.DTOs.Product.Validators
 {
     public class CreateProductRequestValidator : AbstractValidator<CreateProductRequest>
     {

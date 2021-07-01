@@ -1,4 +1,4 @@
-﻿namespace CarDataPlatformIngestor.Domain.Settings
+﻿namespace CleanArchitectureTemplate.Domain.Settings
 {
     public class JWTSettings
     {

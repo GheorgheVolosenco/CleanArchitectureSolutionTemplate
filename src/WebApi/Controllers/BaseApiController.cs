@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace CarDataPlatformIngestor.WebApi.Controllers
+namespace CleanArchitectureTemplate.WebApi.Controllers
 {
     [ApiController]
     public abstract class BaseApiController : ControllerBase

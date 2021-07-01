@@ -1,8 +1,8 @@
-﻿using CarDataPlatformIngestor.Application.DTOs.Account;
+﻿using CleanArchitectureTemplate.Application.DTOs.Account;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 
-namespace CarDataPlatformIngestor.Infrastructure.Identity.Models
+namespace CleanArchitectureTemplate.Infrastructure.Identity.Models
 {
     public class ApplicationUser : IdentityUser
     {

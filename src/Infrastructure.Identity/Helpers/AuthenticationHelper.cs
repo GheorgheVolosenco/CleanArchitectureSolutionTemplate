@@ -4,7 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Text;
 
-namespace CarDataPlatformIngestor.Infrastructure.Identity.Helpers
+namespace CleanArchitectureTemplate.Infrastructure.Identity.Helpers
 {
     public class AuthenticationHelper
     {

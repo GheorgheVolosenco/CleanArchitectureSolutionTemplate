@@ -1,4 +1,4 @@
-﻿namespace CarDataPlatformIngestor.Application.Enums
+﻿namespace CleanArchitectureTemplate.Application.Enums
 {
     public enum Roles
     {

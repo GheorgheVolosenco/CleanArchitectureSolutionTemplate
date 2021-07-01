@@ -1,6 +1,6 @@
-﻿using CarDataPlatformIngestor.Domain.Common;
+﻿using CleanArchitectureTemplate.Domain.Common;
 
-namespace CarDataPlatformIngestor.Domain.Entities
+namespace CleanArchitectureTemplate.Domain.Entities
 {
     public class Product : AuditableBaseEntity
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CarDataPlatformIngestor.Application.DTOs.Account.Requests
+namespace CleanArchitectureTemplate.Application.DTOs.Account.Requests
 {
     public class ForgotPasswordRequest
     {

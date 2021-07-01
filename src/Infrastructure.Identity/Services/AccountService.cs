@@ -1,14 +1,14 @@
-﻿using CarDataPlatformIngestor.Application.DTOs.Account;
-using CarDataPlatformIngestor.Application.DTOs.Account.Requests;
-using CarDataPlatformIngestor.Application.DTOs.Account.Responses;
-using CarDataPlatformIngestor.Application.DTOs.Email.Requests;
-using CarDataPlatformIngestor.Application.Enums;
-using CarDataPlatformIngestor.Application.Exceptions;
-using CarDataPlatformIngestor.Application.Interfaces.Services;
-using CarDataPlatformIngestor.Application.Wrappers;
-using CarDataPlatformIngestor.Domain.Settings;
-using CarDataPlatformIngestor.Infrastructure.Identity.Helpers;
-using CarDataPlatformIngestor.Infrastructure.Identity.Models;
+﻿using CleanArchitectureTemplate.Application.DTOs.Account;
+using CleanArchitectureTemplate.Application.DTOs.Account.Requests;
+using CleanArchitectureTemplate.Application.DTOs.Account.Responses;
+using CleanArchitectureTemplate.Application.DTOs.Email.Requests;
+using CleanArchitectureTemplate.Application.Enums;
+using CleanArchitectureTemplate.Application.Exceptions;
+using CleanArchitectureTemplate.Application.Interfaces.Services;
+using CleanArchitectureTemplate.Application.Wrappers;
+using CleanArchitectureTemplate.Domain.Settings;
+using CleanArchitectureTemplate.Infrastructure.Identity.Helpers;
+using CleanArchitectureTemplate.Infrastructure.Identity.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Options;
@@ -22,7 +22,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Infrastructure.Identity.Services
+namespace CleanArchitectureTemplate.Infrastructure.Identity.Services
 {
     public class AccountService : IAccountService
     {

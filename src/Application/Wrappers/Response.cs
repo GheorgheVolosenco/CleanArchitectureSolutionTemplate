@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CarDataPlatformIngestor.Application.Wrappers
+namespace CleanArchitectureTemplate.Application.Wrappers
 {
     public class Response<T>
     {

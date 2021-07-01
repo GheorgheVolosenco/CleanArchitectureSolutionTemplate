@@ -1,4 +1,4 @@
-﻿namespace CarDataPlatformIngestor.Application.Filters
+﻿namespace CleanArchitectureTemplate.Application.Filters
 {
     public class RequestParameter
     {

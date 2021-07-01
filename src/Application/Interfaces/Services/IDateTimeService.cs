@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CarDataPlatformIngestor.Application.Interfaces.Services
+namespace CleanArchitectureTemplate.Application.Interfaces.Services
 {
     public interface IDateTimeService
     {

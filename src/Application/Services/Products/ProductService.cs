@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using CarDataPlatformIngestor.Application.DTOs.Product.Requests;
-using CarDataPlatformIngestor.Application.DTOs.Product.Responses;
-using CarDataPlatformIngestor.Application.Exceptions;
-using CarDataPlatformIngestor.Application.Interfaces.Repositories;
-using CarDataPlatformIngestor.Application.Wrappers;
-using CarDataPlatformIngestor.Domain.Entities;
+using CleanArchitectureTemplate.Application.DTOs.Product.Requests;
+using CleanArchitectureTemplate.Application.DTOs.Product.Responses;
+using CleanArchitectureTemplate.Application.Exceptions;
+using CleanArchitectureTemplate.Application.Interfaces.Repositories;
+using CleanArchitectureTemplate.Application.Wrappers;
+using CleanArchitectureTemplate.Domain.Entities;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;

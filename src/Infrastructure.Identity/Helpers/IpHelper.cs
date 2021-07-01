@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 
-namespace CarDataPlatformIngestor.Infrastructure.Identity.Helpers
+namespace CleanArchitectureTemplate.Infrastructure.Identity.Helpers
 {
     public class IpHelper
     {

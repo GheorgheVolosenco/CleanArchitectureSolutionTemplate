@@ -1,11 +1,11 @@
-﻿using CarDataPlatformIngestor.Application.Interfaces.Repositories;
-using CarDataPlatformIngestor.Domain.Entities;
-using CarDataPlatformIngestor.Infrastructure.Persistence.Contexts;
-using CarDataPlatformIngestor.Infrastructure.Persistence.Repository;
+﻿using CleanArchitectureTemplate.Application.Interfaces.Repositories;
+using CleanArchitectureTemplate.Domain.Entities;
+using CleanArchitectureTemplate.Infrastructure.Persistence.Contexts;
+using CleanArchitectureTemplate.Infrastructure.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Infrastructure.Persistence.Repositories
+namespace CleanArchitectureTemplate.Infrastructure.Persistence.Repositories
 {
     public class ProductRepositoryAsync : GenericRepositoryAsync<Product>, IProductRepositoryAsync
     {

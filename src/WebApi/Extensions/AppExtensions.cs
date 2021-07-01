@@ -1,8 +1,8 @@
-﻿using CarDataPlatformIngestor.WebApi.Middlewares;
+﻿using CleanArchitectureTemplate.WebApi.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using WebApi.Middlewares;
 
-namespace CarDataPlatformIngestor.WebApi.Extensions
+namespace CleanArchitectureTemplate.WebApi.Extensions
 {
     public static class AppExtensions
     {

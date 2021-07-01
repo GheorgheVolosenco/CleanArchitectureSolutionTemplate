@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace CarDataPlatformIngestor.Application.Exceptions
+namespace CleanArchitectureTemplate.Application.Exceptions
 {
     public class ApiException : Exception
     {

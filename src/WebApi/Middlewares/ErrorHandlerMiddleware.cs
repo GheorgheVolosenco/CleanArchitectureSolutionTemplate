@@ -1,5 +1,5 @@
-﻿using CarDataPlatformIngestor.Application.Exceptions;
-using CarDataPlatformIngestor.Application.Wrappers;
+﻿using CleanArchitectureTemplate.Application.Exceptions;
+using CleanArchitectureTemplate.Application.Wrappers;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.WebApi.Middlewares
+namespace CleanArchitectureTemplate.WebApi.Middlewares
 {
     public class ErrorHandlerMiddleware
     {

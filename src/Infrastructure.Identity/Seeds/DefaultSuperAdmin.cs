@@ -1,10 +1,10 @@
-﻿using CarDataPlatformIngestor.Application.Enums;
-using CarDataPlatformIngestor.Infrastructure.Identity.Models;
+﻿using CleanArchitectureTemplate.Application.Enums;
+using CleanArchitectureTemplate.Infrastructure.Identity.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Infrastructure.Identity.Seeds
+namespace CleanArchitectureTemplate.Infrastructure.Identity.Seeds
 {
     public static class DefaultSuperAdmin
     {

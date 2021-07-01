@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Application.Interfaces.Repositories
+namespace CleanArchitectureTemplate.Application.Interfaces.Repositories
 {
     public interface IGenericRepositoryAsync<T> where T : class
     {

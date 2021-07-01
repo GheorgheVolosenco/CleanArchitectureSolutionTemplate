@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace CarDataPlatformIngestor.Application
+namespace CleanArchitectureTemplate.Application
 {
     public static class ServiceExtensions
     {

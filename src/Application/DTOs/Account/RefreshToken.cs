@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CarDataPlatformIngestor.Application.DTOs.Account
+namespace CleanArchitectureTemplate.Application.DTOs.Account
 {
     public class RefreshToken
     {

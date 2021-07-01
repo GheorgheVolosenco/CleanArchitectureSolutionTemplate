@@ -1,9 +1,9 @@
-﻿using CarDataPlatformIngestor.Application.Interfaces.Services;
-using CarDataPlatformIngestor.Application.Wrappers;
-using CarDataPlatformIngestor.Domain.Settings;
-using CarDataPlatformIngestor.Infrastructure.Identity.Contexts;
-using CarDataPlatformIngestor.Infrastructure.Identity.Models;
-using CarDataPlatformIngestor.Infrastructure.Identity.Services;
+﻿using CleanArchitectureTemplate.Application.Interfaces.Services;
+using CleanArchitectureTemplate.Application.Wrappers;
+using CleanArchitectureTemplate.Domain.Settings;
+using CleanArchitectureTemplate.Infrastructure.Identity.Contexts;
+using CleanArchitectureTemplate.Infrastructure.Identity.Models;
+using CleanArchitectureTemplate.Infrastructure.Identity.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -15,7 +15,7 @@ using System;
 using System.Text;
 using System.Text.Json;
 
-namespace CarDataPlatformIngestor.Infrastructure.Identity
+namespace CleanArchitectureTemplate.Infrastructure.Identity
 {
     public static class ServiceExtensions
     {

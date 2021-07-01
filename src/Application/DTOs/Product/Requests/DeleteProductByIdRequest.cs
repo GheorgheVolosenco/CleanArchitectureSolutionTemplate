@@ -1,4 +1,4 @@
-﻿namespace CarDataPlatformIngestor.Application.DTOs.Product.Requests
+﻿namespace CleanArchitectureTemplate.Application.DTOs.Product.Requests
 {
     public class DeleteProductByIdRequest
     {

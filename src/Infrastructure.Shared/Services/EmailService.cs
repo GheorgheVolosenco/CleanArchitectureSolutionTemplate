@@ -1,7 +1,7 @@
-﻿using CarDataPlatformIngestor.Application.DTOs.Email.Requests;
-using CarDataPlatformIngestor.Application.Exceptions;
-using CarDataPlatformIngestor.Application.Interfaces.Services;
-using CarDataPlatformIngestor.Domain.Settings;
+﻿using CleanArchitectureTemplate.Application.DTOs.Email.Requests;
+using CleanArchitectureTemplate.Application.Exceptions;
+using CleanArchitectureTemplate.Application.Interfaces.Services;
+using CleanArchitectureTemplate.Domain.Settings;
 using MailKit.Net.Smtp;
 using MailKit.Security;
 using Microsoft.Extensions.Logging;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Options;
 using MimeKit;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Infrastructure.Shared.Services
+namespace CleanArchitectureTemplate.Infrastructure.Shared.Services
 {
     public class EmailService : IEmailService
     {

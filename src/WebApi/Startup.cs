@@ -1,18 +1,18 @@
-using CarDataPlatformIngestor.Application;
-using CarDataPlatformIngestor.Application.Interfaces.Services;
-using CarDataPlatformIngestor.Infrastructure.Identity;
-using CarDataPlatformIngestor.Infrastructure.Persistence;
-using CarDataPlatformIngestor.Infrastructure.Persistence.Contexts;
-using CarDataPlatformIngestor.Infrastructure.Shared;
-using CarDataPlatformIngestor.WebApi.Extensions;
-using CarDataPlatformIngestor.WebApi.Services;
+using CleanArchitectureTemplate.Application;
+using CleanArchitectureTemplate.Application.Interfaces.Services;
+using CleanArchitectureTemplate.Infrastructure.Identity;
+using CleanArchitectureTemplate.Infrastructure.Persistence;
+using CleanArchitectureTemplate.Infrastructure.Persistence.Contexts;
+using CleanArchitectureTemplate.Infrastructure.Shared;
+using CleanArchitectureTemplate.WebApi.Extensions;
+using CleanArchitectureTemplate.WebApi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace CarDataPlatformIngestor.WebApi
+namespace CleanArchitectureTemplate.WebApi
 {
     public class Startup
     {

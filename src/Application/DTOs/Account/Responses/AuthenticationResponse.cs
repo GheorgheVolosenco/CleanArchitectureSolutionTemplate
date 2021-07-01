@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace CarDataPlatformIngestor.Application.DTOs.Account.Responses
+namespace CleanArchitectureTemplate.Application.DTOs.Account.Responses
 {
     public class AuthenticationResponse
     {

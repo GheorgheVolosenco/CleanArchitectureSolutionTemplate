@@ -1,9 +1,9 @@
-﻿using CarDataPlatformIngestor.Application.DTOs.Account.Requests;
-using CarDataPlatformIngestor.Application.DTOs.Account.Responses;
-using CarDataPlatformIngestor.Application.Wrappers;
+﻿using CleanArchitectureTemplate.Application.DTOs.Account.Requests;
+using CleanArchitectureTemplate.Application.DTOs.Account.Responses;
+using CleanArchitectureTemplate.Application.Wrappers;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Application.Interfaces.Services
+namespace CleanArchitectureTemplate.Application.Interfaces.Services
 {
     public interface IAccountService
     {

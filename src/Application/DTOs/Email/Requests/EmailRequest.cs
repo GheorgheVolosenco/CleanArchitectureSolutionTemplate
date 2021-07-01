@@ -1,4 +1,4 @@
-﻿namespace CarDataPlatformIngestor.Application.DTOs.Email.Requests
+﻿namespace CleanArchitectureTemplate.Application.DTOs.Email.Requests
 {
     public class EmailRequest
     {

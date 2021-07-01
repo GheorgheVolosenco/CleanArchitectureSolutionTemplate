@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using CarDataPlatformIngestor.Application.DTOs.Product.Requests;
-using CarDataPlatformIngestor.Application.DTOs.Product.Responses;
-using CarDataPlatformIngestor.Domain.Entities;
+using CleanArchitectureTemplate.Application.DTOs.Product.Requests;
+using CleanArchitectureTemplate.Application.DTOs.Product.Responses;
+using CleanArchitectureTemplate.Domain.Entities;
 
-namespace CarDataPlatformIngestor.Application.Mappings
+namespace CleanArchitectureTemplate.Application.Mappings
 {
     public class GeneralProfile : Profile
     {

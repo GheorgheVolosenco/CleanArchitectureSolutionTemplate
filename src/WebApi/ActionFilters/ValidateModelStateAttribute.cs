@@ -1,4 +1,4 @@
-﻿using CarDataPlatformIngestor.Application.Exceptions;
+﻿using CleanArchitectureTemplate.Application.Exceptions;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Linq;
 

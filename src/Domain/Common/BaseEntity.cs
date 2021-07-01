@@ -1,4 +1,4 @@
-﻿namespace CarDataPlatformIngestor.Domain.Common
+﻿namespace CleanArchitectureTemplate.Domain.Common
 {
     public abstract class BaseEntity
     {

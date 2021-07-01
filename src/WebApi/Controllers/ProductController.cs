@@ -1,7 +1,7 @@
 ﻿using Application.Services.Products;
-using CarDataPlatformIngestor.Application.DTOs.Product.Requests;
-using CarDataPlatformIngestor.Application.DTOs.Product.Responses;
-using CarDataPlatformIngestor.Application.Wrappers;
+using CleanArchitectureTemplate.Application.DTOs.Product.Requests;
+using CleanArchitectureTemplate.Application.DTOs.Product.Responses;
+using CleanArchitectureTemplate.Application.Wrappers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.WebApi.Controllers.v1
+namespace CleanArchitectureTemplate.WebApi.Controllers.v1
 {
     [Route("api/product")]
     public class ProductController : BaseApiController

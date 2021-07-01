@@ -1,9 +1,9 @@
-﻿using CarDataPlatformIngestor.Infrastructure.Identity.Models;
+﻿using CleanArchitectureTemplate.Infrastructure.Identity.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CarDataPlatformIngestor.Infrastructure.Identity.Contexts
+namespace CleanArchitectureTemplate.Infrastructure.Identity.Contexts
 {
     public class IdentityContext : IdentityDbContext<ApplicationUser>
     {

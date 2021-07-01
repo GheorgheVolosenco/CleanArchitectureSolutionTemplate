@@ -1,4 +1,4 @@
-﻿using CarDataPlatformIngestor.Application.DTOs.Product.Validators;
+﻿using CleanArchitectureTemplate.Application.DTOs.Product.Validators;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +11,7 @@ using System.IO;
 using System.Reflection;
 using WebApi.ActionFilters;
 
-namespace CarDataPlatformIngestor.WebApi.Extensions
+namespace CleanArchitectureTemplate.WebApi.Extensions
 {
     public static class ServiceExtensions
     {

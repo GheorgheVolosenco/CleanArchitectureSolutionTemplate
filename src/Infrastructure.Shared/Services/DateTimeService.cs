@@ -1,7 +1,7 @@
-﻿using CarDataPlatformIngestor.Application.Interfaces.Services;
+﻿using CleanArchitectureTemplate.Application.Interfaces.Services;
 using System;
 
-namespace CarDataPlatformIngestor.Infrastructure.Shared.Services
+namespace CleanArchitectureTemplate.Infrastructure.Shared.Services
 {
     public class DateTimeService : IDateTimeService
     {

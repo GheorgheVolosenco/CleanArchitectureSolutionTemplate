@@ -1,12 +1,12 @@
-﻿using CarDataPlatformIngestor.Application.Interfaces.Services;
-using CarDataPlatformIngestor.Domain.Common;
-using CarDataPlatformIngestor.Domain.Entities;
+﻿using CleanArchitectureTemplate.Application.Interfaces.Services;
+using CleanArchitectureTemplate.Domain.Common;
+using CleanArchitectureTemplate.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CarDataPlatformIngestor.Infrastructure.Persistence.Contexts
+namespace CleanArchitectureTemplate.Infrastructure.Persistence.Contexts
 {
     public class ApplicationDbContext : DbContext
     {
