@@ -1,4 +1,4 @@
- # Clean Architecture Solution Template
+ # Clean Architecture Solution Template using Microsoft Identity
 
 This is a solution template for creating a .NET Core API following the principles of Clean Architecture. 
 
